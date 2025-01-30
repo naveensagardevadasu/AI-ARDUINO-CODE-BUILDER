@@ -7,7 +7,7 @@ from datetime import datetime
 # Set up your OpenAI API key
 openai.api_key = "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"
 
-
+#AI + Arduino
 
 # Function to get Arduino code from ChatGPT based on the prompt
 def generate_arduino_code(prompt):
