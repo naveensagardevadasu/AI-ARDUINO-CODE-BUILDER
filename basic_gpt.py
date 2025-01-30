@@ -9,6 +9,8 @@ openai.api_key = "sk-proj-whuVG6zahKgNlYxhBp7HLDuQ7ShN3VlKr-_Y7UYRgzddLk9XiaWhK6
 
 #AI + Arduino
 
+print("Hello World!")
+
 # Function to get Arduino code from ChatGPT based on the prompt
 def generate_arduino_code(prompt):
     detailed_prompt = f"{prompt}\nPlease provide only the Arduino code between /* START */ and /* END */ comments."
